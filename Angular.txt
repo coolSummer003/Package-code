@@ -1,0 +1,14 @@
+angular
+1. 创建组件
+
+      ng generate component 组件名
+	  
+	  
+2. 循环遍历
+*ngFor="let item of list"
+
+3. 事件
+(click) = onSelect(item)
+
+4. 数据双向绑定
+[(ngModel)]="name"
